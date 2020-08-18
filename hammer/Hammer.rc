@@ -7,7 +7,7 @@
 //
 // Generated from the TEXTINCLUDE 2 resource.
 //
-#include <winnt.h>
+#include <winres.h>
 #include <afxres.h>
 /////////////////////////////////////////////////////////////////////////////
 #undef APSTUDIO_READONLY_SYMBOLS
@@ -32,7 +32,7 @@ END
 
 2 TEXTINCLUDE 
 BEGIN
-    "#include <winnt.h>\r\n"
+    "#include <winres.h>\r\n"
     "#include <afxres.h>\0"
 END
 
@@ -198,6 +198,28 @@ BEGIN
     SEPARATOR
     BUTTON      ID_TOOLS_CLIPPER
     BUTTON      ID_TOOLS_MORPH
+    SEPARATOR
+    BUTTON      ID_TEMPLATE
+END
+
+IDB_MAPEDITTOOLS_256 TOOLBAR 40, 32
+BEGIN
+    BUTTON      ID_TOOLS_POINTER
+    BUTTON      ID_TOOLS_MAGNIFY
+    BUTTON      ID_TOOLS_CAMERA
+    SEPARATOR
+    BUTTON      ID_TOOLS_ENTITY
+    BUTTON      ID_TOOLS_BLOCK
+    SEPARATOR
+    BUTTON      ID_MODE_APPLICATOR
+    BUTTON      ID_EDIT_APPLYTEXTURE
+    BUTTON      ID_TOOLS_APPLYDECALS
+    BUTTON      ID_TOOLS_OVERLAY
+    SEPARATOR
+    BUTTON      ID_TOOLS_CLIPPER
+    BUTTON      ID_TOOLS_MORPH
+    SEPARATOR
+    BUTTON      ID_TEMPLATE
 END
 
 IDR_SELECTIONTOOLS TOOLBAR 24, 24
@@ -1939,6 +1961,15 @@ BEGIN
     LTEXT           "asdf",IDC_NEXT_SOUND,62,41,206,8
 END
 
+IDD_TEMPLATE DIALOGEX 0, 0, 153, 50
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "The funny window"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,54,30,42,14
+    LTEXT           "Haha funny windowe :} it is a funny window",IDC_STATIC,6,6,144,8
+END
+
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -2474,6 +2505,14 @@ BEGIN
         BOTTOMMARGIN, 76
         HORZGUIDE, 28
     END
+
+    IDD_TEMPLATE, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 146
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 43
+    END
 END
 #endif    // APSTUDIO_INVOKED
 
@@ -2593,6 +2632,11 @@ BEGIN
 END
 
 IDD_FACEEDIT AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_TEMPLATE AFX_DIALOG_LAYOUT
 BEGIN
     0
 END
@@ -3134,6 +3178,7 @@ END
 STRINGTABLE
 BEGIN
     ID_HELP_REPORTANISSUE   "https://github.com/Gocnak/sdk-2013-hammer/issues"
+    ID_TEMPLATE             "Template tool\nTemplate tool [No Key]"
 END
 
 #endif    // English (United States) resources

@@ -177,6 +177,7 @@
 #define IDI_CAMERA                      334
 #define IDD_SAVEDIALOG                  337
 #define IDD_SCENE_PREVIEW               338
+#define IDD_TEMPLATE                    342
 #define IDC_BRDLG_FLIPHORIZ             1000
 #define IDC_BRDLG_FLIPVERT              1001
 #define CG_IDC_PROGDLG_PROGRESS         1003
@@ -967,13 +968,13 @@
 #define ID_EDIT_LAYERS                  32878
 #define ID_MAP_GRIDLOWER                32879
 #define ID_MAP_GRIDHIGHER               32880
-#define ID_INSTANCE_COLLAPSE_SEL		32881
+#define ID_INSTANCE_COLLAPSE_SEL        32881
 #define ID_INSTANCE_COLLAPSE_SEL_RECURSIVE 32882
-#define ID_INSTANCE_COLLAPSE_ALL		32883
+#define ID_INSTANCE_COLLAPSE_ALL        32883
 #define ID_INSTANCE_COLLAPSE_ALL_RECURSIVE 32884
-#define ID_INSTANCE_VIS_HIDE			32885
-#define ID_INSTANCE_VIS_TINTED			32886
-#define ID_INSTANCE_VIS_NORMAL			32887
+#define ID_INSTANCE_VIS_HIDE            32885
+#define ID_INSTANCE_VIS_TINTED          32886
+#define ID_INSTANCE_VIS_NORMAL          32887
 #define ID_VIEW_MAXIMIZEPANE            32888
 #define ID_VIEW_MAXIMIZERESTOREACTIVEVIEW 32889
 #define ID_TOOLS_ALIGNLEFT              32891
@@ -1146,6 +1147,7 @@
 #define ID_SHOW_NODRAW_BRUSHES          33226
 #define ID_MAP_UNLOADPORTALFILE         33227
 #define ID_HELP_REPORTANISSUE           33235
+#define ID_TEMPLATE                     33236
 #define IDS_NOPLAYERSTART               40000
 #define IDS_MIXEDFACES                  40001
 #define IDS_DUPLICATEPLANES             40002
@@ -1215,8 +1217,8 @@
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
 #define _APS_3D_CONTROLS                     1
-#define _APS_NEXT_RESOURCE_VALUE        341
-#define _APS_NEXT_COMMAND_VALUE         33236
+#define _APS_NEXT_RESOURCE_VALUE        345
+#define _APS_NEXT_COMMAND_VALUE         33237
 #define _APS_NEXT_CONTROL_VALUE         1677
 #define _APS_NEXT_SYMED_VALUE           121
 #endif

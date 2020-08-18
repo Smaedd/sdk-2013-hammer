@@ -26,6 +26,7 @@ class CToolPointHandle;
 class CToolSphere;
 class CBaseTool;
 class CToolSweptPlayerHull;
+class CToolTemplate;
 class CChunkHandlerMap;
 
 class CToolManager
